@@ -68,151 +68,153 @@ class _CoursePageForCollectionState extends State<CoursePageForCollection> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Stack(
-                                children: [
-                                  GestureDetector(
-                                    onTap: () {
-                                      if (url ==
-                                          'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%20141.png?alt=media&token=39c330ee-4aaf-44ed-ad67-b17eefd5d1b8') {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    const Card1TabPage()));
-                                      } else if (url ==
-                                          'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%20141%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB.png?alt=media&token=9f522e16-6069-40a2-b77d-3c72dcd160c7') {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    const Card2TabPage()));
-                                      } else if (url ==
-                                          'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%201413.png?alt=media&token=fd5bc6cf-e10e-4d5d-a31a-e2c913005bda') {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    const Card3TabPage()));
-                                      } else if (url ==
-                                          'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%201414.png?alt=media&token=794d88e5-7946-4f46-809c-1b45d0dd71e5') {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    const Card4TabPage()));
-                                      } else if (url ==
-                                          'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%201415.png?alt=media&token=34331bb1-b8dc-43b4-9afd-a32ae7567cd4') {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    const Card5TabPage()));
-                                      } else if (url ==
-                                          'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%201416.png?alt=media&token=76101246-4371-41d4-877d-5f0e004f9e37') {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) =>
-                                                    const Card6TabPage()));
-                                      }
-                                    },
+                              Flexible(
+                                child: Stack(
+                                  children: [
+                                    GestureDetector(
+                                      onTap: () {
+                                        if (url ==
+                                            'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%20141.png?alt=media&token=39c330ee-4aaf-44ed-ad67-b17eefd5d1b8') {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      const Card1TabPage()));
+                                        } else if (url ==
+                                            'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%20141%20%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB.png?alt=media&token=9f522e16-6069-40a2-b77d-3c72dcd160c7') {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      const Card2TabPage()));
+                                        } else if (url ==
+                                            'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%201413.png?alt=media&token=fd5bc6cf-e10e-4d5d-a31a-e2c913005bda') {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      const Card3TabPage()));
+                                        } else if (url ==
+                                            'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%201414.png?alt=media&token=794d88e5-7946-4f46-809c-1b45d0dd71e5') {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      const Card4TabPage()));
+                                        } else if (url ==
+                                            'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%201415.png?alt=media&token=34331bb1-b8dc-43b4-9afd-a32ae7567cd4') {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      const Card5TabPage()));
+                                        } else if (url ==
+                                            'https://firebasestorage.googleapis.com/v0/b/soda-project-final.appspot.com/o/Rectangle%201416.png?alt=media&token=76101246-4371-41d4-877d-5f0e004f9e37') {
+                                          Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      const Card6TabPage()));
+                                        }
+                                      },
+                                      child: Stack(
+                                        children: [
+                                          SizedBox(
+                                            width: 182,
+                                            height: 154,
+                                            child: Image(
+                                              fit: BoxFit.fill,
+                                              image: NetworkImage(url),
+                                            ),
+                                          ),
+                                          Positioned(
+                                              top: 130,
+                                              left: 100,
+                                              child: Stack(
+                                                alignment: Alignment.center,
+                                                children: [
+                                                  Container(
+                                                    decoration: BoxDecoration(
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              13),
+                                                      color:
+                                                          AppColor.appBarColor1,
+                                                    ),
+                                                    width: 75,
+                                                    height: 20,
+                                                  ),
+                                                  Text(
+                                                    '${f.format(price.toInt())}원~',
+                                                    style: const TextStyle(
+                                                        fontSize: 12,
+                                                        fontWeight:
+                                                            FontWeight.w500,
+                                                        letterSpacing: -0.18,
+                                                        color:
+                                                            AppColor.textColor4),
+                                                  ),
+                                                ],
+                                              )),
+                                        ],
+                                      ),
+                                    ),
+                                    /*Positioned(
+                                    left: 132,
                                     child: Stack(
+                                      alignment: Alignment.center,
                                       children: [
-                                        SizedBox(
-                                          width: 182,
-                                          height: 154,
-                                          child: Image(
-                                            fit: BoxFit.fill,
-                                            image: NetworkImage(url),
+                                        Container(
+                                          width: 35,
+                                          height: 35,
+                                          decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(100),
+                                            color: AppColor.backGroundColor2,
                                           ),
                                         ),
-                                        Positioned(
-                                            top: 130,
-                                            left: 100,
-                                            child: Stack(
-                                              alignment: Alignment.center,
-                                              children: [
-                                                Container(
-                                                  decoration: BoxDecoration(
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            13),
-                                                    color:
-                                                        AppColor.appBarColor1,
-                                                  ),
-                                                  width: 75,
-                                                  height: 20,
-                                                ),
-                                                Text(
-                                                  '${f.format(price.toInt())}원~',
-                                                  style: const TextStyle(
-                                                      fontSize: 12,
-                                                      fontWeight:
-                                                          FontWeight.w500,
-                                                      letterSpacing: -0.18,
-                                                      color:
-                                                          AppColor.textColor4),
-                                                ),
-                                              ],
-                                            )),
+                                        IconButton(
+                                          onPressed: () {
+                                            setState(() {
+                                              _isFavorited = !_isFavorited;
+                                                      
+                                              if (_isFavorited) {
+                                                firestore
+                                                    .collection("course")
+                                                    .doc('course${widget.index}')
+                                                    .set(
+                                                  {
+                                                    "title": widget.title,
+                                                    "discription": widget.description,
+                                                    "URL": widget.pictureurl,
+                                                    'timestamp': DateTime.now(),
+                                                  },
+                                                );
+                                              } else {
+                                                firestore
+                                                    .collection("course")
+                                                    .doc('course${widget.index}')
+                                                    .delete();
+                                                _courseProvider
+                                                    .deleteCourseCard(widget.title);
+                                              }
+                                                      
+                                              //파베에 정보 넘기기
+                                              print(widget.title);
+                                              print(_isFavorited);
+                                            });
+                                          },
+                                          icon: Icon(
+                                            _isFavorited
+                                                ? Icons.favorite
+                                                : Icons.favorite_border,
+                                            color: AppColor.appBarColor1,
+                                          ),
+                                        ),
                                       ],
                                     ),
-                                  ),
-                                  /*Positioned(
-                                  left: 132,
-                                  child: Stack(
-                                    alignment: Alignment.center,
-                                    children: [
-                                      Container(
-                                        width: 35,
-                                        height: 35,
-                                        decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(100),
-                                          color: AppColor.backGroundColor2,
-                                        ),
-                                      ),
-                                      IconButton(
-                                        onPressed: () {
-                                          setState(() {
-                                            _isFavorited = !_isFavorited;
-                      
-                                            if (_isFavorited) {
-                                              firestore
-                                                  .collection("course")
-                                                  .doc('course${widget.index}')
-                                                  .set(
-                                                {
-                                                  "title": widget.title,
-                                                  "discription": widget.description,
-                                                  "URL": widget.pictureurl,
-                                                  'timestamp': DateTime.now(),
-                                                },
-                                              );
-                                            } else {
-                                              firestore
-                                                  .collection("course")
-                                                  .doc('course${widget.index}')
-                                                  .delete();
-                                              _courseProvider
-                                                  .deleteCourseCard(widget.title);
-                                            }
-                      
-                                            //파베에 정보 넘기기
-                                            print(widget.title);
-                                            print(_isFavorited);
-                                          });
-                                        },
-                                        icon: Icon(
-                                          _isFavorited
-                                              ? Icons.favorite
-                                              : Icons.favorite_border,
-                                          color: AppColor.appBarColor1,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),*/
-                                ],
+                                  ),*/
+                                  ],
+                                ),
                               ),
                               GestureDetector(
                                 onTap: () {

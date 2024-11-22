@@ -12,6 +12,8 @@ class OnboardingMain extends StatefulWidget {
 class _OnboardingMainState extends State<OnboardingMain> {
   @override
   Widget build(BuildContext context) {
+    double screenHeight = MediaQuery.of(context).size.height;
+    double screenWidth = MediaQuery.of(context).size.width;
     return Container(
       color: const Color(0xffFCD767),
       child: Column(
@@ -24,8 +26,8 @@ class _OnboardingMainState extends State<OnboardingMain> {
               width: 182, height: 115, child: Image.asset('assets/custom.png')),
           const SizedBox(height: 102),
           SizedBox(
-            width: 153,
-            height: 60,
+            width: (153/393)*screenWidth,
+            height: (60/852)*screenHeight,
             child: ElevatedButton(
               onPressed: () {
                 Navigator.push(context,
