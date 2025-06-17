@@ -42,4 +42,16 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Firebase Configuration (Security)
 lib/firebase_options.dart
+
+# Environment Files
+.env
+.env.local
+.env.production
+.env.staging
+
+# API Keys and Secrets
+**/secrets/
+**/*.key
+**/*.pem

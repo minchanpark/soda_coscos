@@ -14,6 +14,8 @@ import 'package:flutter/foundation.dart'
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
 /// ```
+/// 
+/// NOTE: Copy this file to firebase_options.dart and replace with your actual Firebase configuration
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -46,30 +48,30 @@ class DefaultFirebaseOptions {
     }
   }
 
+  // TODO: Replace with your actual Firebase configuration
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAjzZ0hssIcG9V8t4UGB30-g7-02sn_fp4',
-    appId: '1:211227124272:web:ef1fe1fb828c0f715e43f5',
-    messagingSenderId: '211227124272',
-    projectId: 'soda-project-final',
-    authDomain: 'soda-project-final.firebaseapp.com',
-    storageBucket: 'soda-project-final.appspot.com',
+    apiKey: 'YOUR_WEB_API_KEY',
+    appId: 'YOUR_WEB_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCpCV40BEzvE48jlZmEh6DtbnWOfsxmyFs',
-    appId: '1:518562051352:ios:96bbe49464b938e7bbda6d',
-    messagingSenderId: '518562051352',
-    projectId: 'coscos-12e7c',
-    storageBucket: 'coscos-12e7c.firebasestorage.app',
-    iosBundleId: 'com.soda.sodaCoscos',
+    apiKey: 'YOUR_IOS_API_KEY',
+    appId: 'YOUR_IOS_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
+    iosBundleId: 'com.example.yourapp',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC80RBS20RmqdVBL5rmLmae-P_y12zL6iQ',
-    appId: '1:518562051352:android:494805fd499a4af5bbda6d',
-    messagingSenderId: '518562051352',
-    projectId: 'coscos-12e7c',
-    storageBucket: 'coscos-12e7c.firebasestorage.app',
+    apiKey: 'YOUR_ANDROID_API_KEY',
+    appId: 'YOUR_ANDROID_APP_ID',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID',
+    projectId: 'YOUR_PROJECT_ID',
+    storageBucket: 'YOUR_PROJECT_ID.firebasestorage.app',
   );
-
 }
