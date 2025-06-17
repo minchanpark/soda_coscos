@@ -56,20 +56,20 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBnvJ0uS4kL8Nwtdu88OAunbJIe9A5nfKU',
-    appId: '1:211227124272:ios:632193c6000111355e43f5',
-    messagingSenderId: '211227124272',
-    projectId: 'soda-project-final',
-    storageBucket: 'soda-project-final.appspot.com',
+    apiKey: 'AIzaSyCpCV40BEzvE48jlZmEh6DtbnWOfsxmyFs',
+    appId: '1:518562051352:ios:96bbe49464b938e7bbda6d',
+    messagingSenderId: '518562051352',
+    projectId: 'coscos-12e7c',
+    storageBucket: 'coscos-12e7c.firebasestorage.app',
     iosBundleId: 'com.soda.sodaCoscos',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAJ3PWmsf31BdpbsPY3MPzTxkwMIYpcQhQ',
-    appId: '1:211227124272:android:89be70643a3b8b7a5e43f5',
-    messagingSenderId: '211227124272',
-    projectId: 'soda-project-final',
-    storageBucket: 'soda-project-final.appspot.com',
+    apiKey: 'AIzaSyC80RBS20RmqdVBL5rmLmae-P_y12zL6iQ',
+    appId: '1:518562051352:android:494805fd499a4af5bbda6d',
+    messagingSenderId: '518562051352',
+    projectId: 'coscos-12e7c',
+    storageBucket: 'coscos-12e7c.firebasestorage.app',
   );
 
 }

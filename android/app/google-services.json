@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "211227124272",
-    "project_id": "soda-project-final",
-    "storage_bucket": "soda-project-final.appspot.com"
+    "project_number": "518562051352",
+    "project_id": "coscos-12e7c",
+    "storage_bucket": "coscos-12e7c.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:211227124272:android:89be70643a3b8b7a5e43f5",
+        "mobilesdk_app_id": "1:518562051352:android:494805fd499a4af5bbda6d",
         "android_client_info": {
           "package_name": "com.soda.sodaCoscos"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAJ3PWmsf31BdpbsPY3MPzTxkwMIYpcQhQ"
+          "current_key": "AIzaSyC80RBS20RmqdVBL5rmLmae-P_y12zL6iQ"
         }
       ],
       "services": {
